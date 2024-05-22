@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Sidebar takes up auto width, main content takes up remaining space */
+  }
+  
+  .sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
